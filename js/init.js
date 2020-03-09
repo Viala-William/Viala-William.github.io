@@ -20,7 +20,7 @@ function init(){
 
     //header
     let player1 = document.createElement("video");
-    player1.src="img/head.mp4";
+    player1.src="ressource/headBg.mp4";
     player1.id="headBg";
     player1.type="video/mp4";
 
@@ -28,7 +28,7 @@ function init(){
 
     //footer
     let player2 = document.createElement("video");
-    player2.src="img/foot.mp4";
+    player2.src="ressource/footBg.mp4";
     player2.id="footBg";
     player2.type="video/mp4";
 
