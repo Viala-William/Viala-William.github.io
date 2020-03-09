@@ -2,6 +2,13 @@ body.hidden {
     opacity:0;
 }
 
+.line{
+
+}
+
+.bandereau{
+    display:block;
+}
 #preloader {
     position:fixed;
     left:0;
@@ -21,4 +28,5 @@ body.hidden {
     min-width: 100%;
     min-height: 100%;
 }
+
 

@@ -24,6 +24,7 @@ function init(){
     player1.id="headBg";
     player1.type="video/mp4";
 
+    header.class="bandereau";
     header.appendChild(player1);
 
     //footer
@@ -32,6 +33,7 @@ function init(){
     player2.id="footBg";
     player2.type="video/mp4";
 
+    footer.class="bandereau";
     footer.appendChild(player2);
 
     //mainDiv
