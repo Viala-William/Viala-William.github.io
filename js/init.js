@@ -99,8 +99,8 @@ function showPage(){
 }
 
 function cutPage(){
-    preload=document.getElementById(preload);
-    document.removeChild(preload);
+    let old=document.getElementById("preload");
+    document.removeChild(old);
 }
 
 preload();
