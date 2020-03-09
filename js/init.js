@@ -95,10 +95,11 @@ function init(){
 
 
 function showPage(){
-    document.getElementById("body").classList.remove("hidden");
+    document.body.classList.remove("hidden");
 }
 
 function cutPage(){
+    preload=document.getElementById(preload);
     document.removeChild(preload);
 }
 
