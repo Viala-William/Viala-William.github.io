@@ -49,7 +49,7 @@ function init(){
     secText.class="line";
     secText.id="secText";
     secText.innerHTML="J'affectione particulièrement le hardware et suis sensible aux causes écologiques /br j'aime me tenir aux courant des dernières avancées techniques et souhaite devenir administrateur/ingénieur système " +
-        "/br étant également passioné de jeux-vidéos, je n'écarte pas la possibilité d'intégrer leur création à long-terme";
+        "/br étant également passioné de jeux-vidéos, je n'écarte pas la possibilité de participer à leur création à long-terme";
 
     let presVid = document.createElement("video");
     // a venir presVid.src=""
