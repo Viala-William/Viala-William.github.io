@@ -3,7 +3,7 @@ function preload(){
     let preload=document.createElement("video");
     preload.src="ressource/preload.mp4";
     preload.id="preload";
-    document.appendChild(preload);
+    document.insertAdjacentElement("beforebegin",preload);
 }
 function init(){
 
