@@ -3,7 +3,7 @@ function preload(){
     let preload=document.createElement("video");
     preload.src="ressource/preload.mp4";
     preload.id="preload";
-    document.insertAdjacentElement("beforebegin",preload);
+    document.preload.appendChild(preload);
 }
 function init(){
 
@@ -99,7 +99,6 @@ function showPage(){
 }
 
 function cutPage(){
-
     document.removeChild(preload);
 }
 
