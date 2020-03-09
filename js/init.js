@@ -2,8 +2,8 @@
 function preload(){
     let preload=document.createElement("video");
     preload.src="ressource/preload.mp4";
-    preload.id="preload";
-    document.preload.appendChild(preload);
+    preload.id="preloader";
+    document.getElementById("preload").appendChild(preload);
 }
 function init(){
 
